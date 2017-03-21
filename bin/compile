@@ -33,3 +33,10 @@ chmod +x $BUILD_DIR/.profile.d/install_awscli.sh
 rm -rf /tmp/awscli*
 
 echo "-----> aws cli installation done"
+
+# slack-cli
+echo "-----> Fetching Slack CLI into slug"
+
+pip install slack-cli
+
+echo "-----> slack cli installation done"
